@@ -1,0 +1,20 @@
+1
+00:00:00,454 --> 00:00:00,462
+1. openBrowser
+
+2
+00:00:06,133 --> 00:00:06,134
+5. Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+3
+00:00:06,148 --> 00:00:06,149
+9. Statement - js = driver
+
+4
+00:00:06,150 --> 00:00:06,151
+13. Statement - domain = js.executeScript("return document.domain")
+
+5
+00:00:06,194 --> 00:00:06,195
+17. Statement - assert false
+

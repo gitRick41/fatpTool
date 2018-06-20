@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_FindTreatmentProvider_StandalonSearch,Chrome 66.0.3359.181,,2018-06-03 21:03:33,2018-06-03 21:03:45,11.363s,PASSED
+,,,,,,
+Test Cases/javascriptTest,Chrome 66.0.3359.181,,2018-06-03 21:03:34,2018-06-03 21:03:44,10.372s,PASSED
+openBrowser,Chrome 66.0.3359.181,,2018-06-03 21:03:34,2018-06-03 21:03:42,7.474s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.181,,2018-06-03 21:03:42,2018-06-03 21:03:42,0.024s,PASSED
+Statement - js = driver,Chrome 66.0.3359.181,,2018-06-03 21:03:42,2018-06-03 21:03:42,0.004s,PASSED
+"Statement - domain = js.executeScript(""return document.domain"")",Chrome 66.0.3359.181,,2018-06-03 21:03:42,2018-06-03 21:03:42,0.128s,PASSED
+Statement - out.println(domain),Chrome 66.0.3359.181,,2018-06-03 21:03:42,2018-06-03 21:03:42,0.016s,PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 07_succesful_FATP_Into_The_State_If_Zipcode_Is_Not_Found</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f293791c-66d1-4b8b-95bf-487b0fbb5e49</testCaseGuid>
+</TestCaseEntity>

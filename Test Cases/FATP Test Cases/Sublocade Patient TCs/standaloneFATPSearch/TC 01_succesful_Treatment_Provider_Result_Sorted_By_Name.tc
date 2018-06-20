@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 01_succesful_Treatment_Provider_Result_Sorted_By_Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1892c5a-0c01-44ae-b7f5-088b6d4f806a</testCaseGuid>
+</TestCaseEntity>

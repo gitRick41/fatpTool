@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_FindTreatmentProvider_StandalonSearch,Firefox 54.0,,2018-06-04 16:32:52,2018-06-04 16:33:07,15.146s,ERROR
+,,,,,,
+Test Cases/javascriptTest,Firefox 54.0,,2018-06-04 16:32:53,2018-06-04 16:33:07,13.477s,ERROR
+openBrowser,Firefox 54.0,,2018-06-04 16:32:53,2018-06-04 16:33:06,13.007s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 54.0,,2018-06-04 16:33:06,2018-06-04 16:33:07,0.014s,PASSED
+Statement - js = driver,Firefox 54.0,,2018-06-04 16:33:07,2018-06-04 16:33:07,0.001s,PASSED
+"Statement - domain = js.executeScript(""return document.domain"")",Firefox 54.0,,2018-06-04 16:33:07,2018-06-04 16:33:07,0.036s,PASSED
+verifyElementVisible,Firefox 54.0,,2018-06-04 16:33:07,2018-06-04 16:33:07,0.006s,PASSED

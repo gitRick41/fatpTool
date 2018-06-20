@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_FindTreatmentProvider_StandalonSearch" time="47" tests="0" failures="1" errors="0">
+   <testsuite name="TS_FindTreatmentProvider_StandalonSearch" tests="0" failures="1" errors="0" time="47" timestamp="2018-06-03 16:08:10" hostname="Administrator - 10.211.55.3" id="Test Suites/TS_FindTreatmentProvider_StandalonSearch">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180603_160809"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180603_160809\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180603_160809\\1528056536719.png"/>
+         <property name="hostName" value="Administrator - 10.211.55.3"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="10.211.55.3"/>
+         <property name="sessionId" value="e37075090d755bf789aba2eb9188633a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/sublocadePatient" classname="Test Cases/sublocadePatient" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' located by 'By.cssSelector: #js-fatp-trigger' not found)"/>
+         <system-out><![CDATA[2018-06-03 16:08:11 - [TEST_CASE][FAILED] - Test Cases/sublocadePatient: Test Cases/sublocadePatient FAILED because (of) Unable to click on object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' located by 'By.cssSelector: #js-fatp-trigger' not found)
+
+2018-06-03 16:08:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-03 16:08:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-03 16:08:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://indivior-sublocade-coc7-dev-main-indivior.kinetiq.network/' successfully
+
+2018-06-03 16:08:25 - [MESSAGE][PASSED] - Navigate to 'https://indivior-sublocade-coc7-dev-main-indivior.kinetiq.network/' successfully
+
+2018-06-03 16:08:25 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' located by 'By.cssSelector: #js-fatp-trigger' not found)
+
+2018-06-03 16:08:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' located by 'By.cssSelector: #js-fatp-trigger' not found)
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180603_160809\\1528056536719.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-03 16:08:11 - [TEST_CASE][FAILED] - Test Cases/sublocadePatient: Test Cases/sublocadePatient FAILED because (of) Unable to click on object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' located by 'By.cssSelector: #js-fatp-trigger' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-03 16:08:10 - [TEST_SUITE][FAILED] - TS_FindTreatmentProvider_StandalonSearch: Test Cases/sublocadePatient FAILED because (of) Unable to click on object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' located by 'By.cssSelector: #js-fatp-trigger' not found)]]></system-out>
+      <system-err><![CDATA[2018-06-03 16:08:10 - [TEST_SUITE][FAILED] - TS_FindTreatmentProvider_StandalonSearch: Test Cases/sublocadePatient FAILED because (of) Unable to click on object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' located by 'By.cssSelector: #js-fatp-trigger' not found)]]></system-err>
+   </testsuite>
+</testsuites>

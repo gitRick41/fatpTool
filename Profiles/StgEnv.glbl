@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>StgEnv</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Stg URL</description>
+      <initValue>'http://client:4HnoNSYj@indivior-sublocade-consumer-stage.klickcloud.net'</initValue>
+      <name>siteURL</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

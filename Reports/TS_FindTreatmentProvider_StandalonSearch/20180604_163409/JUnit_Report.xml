@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_FindTreatmentProvider_StandalonSearch" time="16" tests="0" failures="1" errors="0">
+   <testsuite name="TS_FindTreatmentProvider_StandalonSearch" tests="0" failures="1" errors="0" time="16" timestamp="2018-06-04 16:34:11" hostname="Administrator - 10.211.55.3" id="Test Suites/TS_FindTreatmentProvider_StandalonSearch">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180604_163409"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180604_163409\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180604_163409\\1528144466313.png, C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180604_163409\\1528144466643.png"/>
+         <property name="hostName" value="Administrator - 10.211.55.3"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="10.211.55.3"/>
+         <property name="sessionId" value="4dd087f79c3640d6890be6000cc7b800"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/standaloneSearch/sublocadePatient" classname="Test Cases/Main Test Cases/standaloneSearch/sublocadePatient" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter' FAILED. (Root cause: Actual text '55' and expected text '56' of test object 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter' are NOT matched.)"/>
+         <system-out><![CDATA[2018-06-04 16:34:11 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/standaloneSearch/sublocadePatient: Test Cases/Main Test Cases/standaloneSearch/sublocadePatient FAILED because (of) Verify element text of test object 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter' FAILED. (Root cause: Actual text '55' and expected text '56' of test object 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter' are NOT matched.)
+
+2018-06-04 16:34:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-04 16:34:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-04 16:34:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://indivior-sublocade-coc7-dev-main-indivior.kinetiq.network/' successfully
+
+2018-06-04 16:34:19 - [MESSAGE][PASSED] - Navigate to 'https://indivior-sublocade-coc7-dev-main-indivior.kinetiq.network/' successfully
+
+2018-06-04 16:34:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-04 16:34:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-04 16:34:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' is clicked on
+
+2018-06-04 16:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' is clicked on
+
+2018-06-04 16:34:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/input_ZipCode' is visible
+
+2018-06-04 16:34:20 - [MESSAGE][PASSED] - Object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/input_ZipCode' is visible
+
+2018-06-04 16:34:20 - [TEST_STEP][PASSED] - setText: Text '23456' is set on object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/input_ZipCode'
+
+2018-06-04 16:34:21 - [MESSAGE][PASSED] - Text '23456' is set on object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/input_ZipCode'
+
+2018-06-04 16:34:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/a_searchProvider' is clicked on
+
+2018-06-04 16:34:21 - [MESSAGE][PASSED] - Object: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/a_searchProvider' is clicked on
+
+2018-06-04 16:34:21 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector(".modal.modal-disclaimer .modal-body").scrollBy(0, 500)' successfully
+
+2018-06-04 16:34:21 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector(".modal.modal-disclaimer .modal-body").scrollBy(0, 500)' successfully
+
+2018-06-04 16:34:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test_03/Page_ModalDisclaimer/a_btnAcceptDisclaimer' is clicked on
+
+2018-06-04 16:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/test_03/Page_ModalDisclaimer/a_btnAcceptDisclaimer' is clicked on
+
+2018-06-04 16:34:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-04 16:34:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-04 16:34:25 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter' FAILED. (Root cause: Actual text '55' and expected text '56' of test object 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter' are NOT matched.)
+
+2018-06-04 16:34:26 - [MESSAGE][FAILED] - Actual text '55' and expected text '56' of test object 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter' are NOT matched.
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180604_163409\\1528144466313.png]]
+
+2018-06-04 16:34:26 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter' FAILED. (Root cause: Actual text '55' and expected text '56' of test object 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180604_163409\\1528144466643.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-04 16:34:11 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/standaloneSearch/sublocadePatient: Test Cases/Main Test Cases/standaloneSearch/sublocadePatient FAILED because (of) Verify element text of test object 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter' FAILED. (Root cause: Actual text '55' and expected text '56' of test object 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter' are NOT matched.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-04 16:34:11 - [TEST_SUITE][FAILED] - TS_FindTreatmentProvider_StandalonSearch: Test Cases/Main Test Cases/standaloneSearch/sublocadePatient FAILED because (of) Verify element text of test object 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter' FAILED. (Root cause: Actual text '55' and expected text '56' of test object 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-06-04 16:34:11 - [TEST_SUITE][FAILED] - TS_FindTreatmentProvider_StandalonSearch: Test Cases/Main Test Cases/standaloneSearch/sublocadePatient FAILED because (of) Verify element text of test object 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter' FAILED. (Root cause: Actual text '55' and expected text '56' of test object 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>

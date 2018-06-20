@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_FindTreatmentProvider_StandalonSearch" time="9" tests="0" failures="1" errors="0">
+   <testsuite name="TS_FindTreatmentProvider_StandalonSearch" tests="0" failures="1" errors="0" time="9" timestamp="2018-06-03 16:11:10" hostname="Administrator - 10.211.55.3" id="Test Suites/TS_FindTreatmentProvider_StandalonSearch">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180603_161109"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180603_161109\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - 10.211.55.3"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="10.211.55.3"/>
+         <property name="sessionId" value="97d595ae5eca19b7e5cda586b7835c8f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/sublocadePatient" classname="Test Cases/sublocadePatient" status="FAILED">
+         <failure type="FAILED" message="org.codehaus.groovy.runtime.powerassert.PowerAssertionError: assert WebUI.getWindowTitle() == 'FPO - treatment-journey fail'
+             |                |
+             |                false
+             FPO - treatment-journey"/>
+         <system-out><![CDATA[2018-06-03 16:11:11 - [TEST_CASE][FAILED] - Test Cases/sublocadePatient: Test Cases/sublocadePatient FAILED because (of) org.codehaus.groovy.runtime.powerassert.PowerAssertionError: assert WebUI.getWindowTitle() == 'FPO - treatment-journey fail'
+             |                |
+             |                false
+             FPO - treatment-journey
+
+2018-06-03 16:11:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-03 16:11:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-03 16:11:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://indivior-sublocade-coc7-dev-main-indivior.kinetiq.network/' successfully
+
+2018-06-03 16:11:14 - [MESSAGE][PASSED] - Navigate to 'https://indivior-sublocade-coc7-dev-main-indivior.kinetiq.network/' successfully
+
+2018-06-03 16:11:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' is clicked on
+
+2018-06-03 16:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' is clicked on
+
+2018-06-03 16:11:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/input_ZipCode' is visible
+
+2018-06-03 16:11:15 - [MESSAGE][PASSED] - Object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/input_ZipCode' is visible
+
+2018-06-03 16:11:15 - [TEST_STEP][PASSED] - setText: Text '23456' is set on object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/input_ZipCode'
+
+2018-06-03 16:11:15 - [MESSAGE][PASSED] - Text '23456' is set on object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/input_ZipCode'
+
+2018-06-03 16:11:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/a_searchProvider' is clicked on
+
+2018-06-03 16:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/a_searchProvider' is clicked on
+
+2018-06-03 16:11:15 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector(".modal.modal-disclaimer .modal-body").scrollBy(0, 500)' successfully
+
+2018-06-03 16:11:15 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector(".modal.modal-disclaimer .modal-body").scrollBy(0, 500)' successfully
+
+2018-06-03 16:11:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test_03/Page_ModalDisclaimer/a_btnAcceptDisclaimer' is clicked on
+
+2018-06-03 16:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/test_03/Page_ModalDisclaimer/a_btnAcceptDisclaimer' is clicked on
+
+2018-06-03 16:11:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-03 16:11:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-03 16:11:19 - [TEST_STEP][PASSED] - Statement - assert com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle() == "FPO - treatment-journey fail": Current window's title is: 'FPO - treatment-journey'
+
+2018-06-03 16:11:19 - [MESSAGE][PASSED] - Current window's title is: 'FPO - treatment-journey']]></system-out>
+         <system-err><![CDATA[2018-06-03 16:11:11 - [TEST_CASE][FAILED] - Test Cases/sublocadePatient: Test Cases/sublocadePatient FAILED because (of) org.codehaus.groovy.runtime.powerassert.PowerAssertionError: assert WebUI.getWindowTitle() == 'FPO - treatment-journey fail'
+             |                |
+             |                false
+             FPO - treatment-journey]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-03 16:11:10 - [TEST_SUITE][FAILED] - TS_FindTreatmentProvider_StandalonSearch: Test Cases/sublocadePatient FAILED because (of) org.codehaus.groovy.runtime.powerassert.PowerAssertionError: assert WebUI.getWindowTitle() == 'FPO - treatment-journey fail'
+             |                |
+             |                false
+             FPO - treatment-journey]]></system-out>
+      <system-err><![CDATA[2018-06-03 16:11:10 - [TEST_SUITE][FAILED] - TS_FindTreatmentProvider_StandalonSearch: Test Cases/sublocadePatient FAILED because (of) org.codehaus.groovy.runtime.powerassert.PowerAssertionError: assert WebUI.getWindowTitle() == 'FPO - treatment-journey fail'
+             |                |
+             |                false
+             FPO - treatment-journey]]></system-err>
+   </testsuite>
+</testsuites>

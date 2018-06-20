@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_FindTreatmentProvider_StandalonSearch,Chrome 66.0.3359.181,,2018-06-03 16:16:13,2018-06-03 16:16:24,10.808s,PASSED
+,,,,,,
+Test Cases/sublocadePatient,Chrome 66.0.3359.181,,2018-06-03 16:16:13,2018-06-03 16:16:24,10.320s,PASSED
+openBrowser,Chrome 66.0.3359.181,,2018-06-03 16:16:14,2018-06-03 16:16:14,0.910s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-06-03 16:16:14,2018-06-03 16:16:17,2.946s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-03 16:16:17,2018-06-03 16:16:18,0.151s,PASSED
+waitForElementVisible,Chrome 66.0.3359.181,,2018-06-03 16:16:18,2018-06-03 16:16:18,0.612s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-03 16:16:18,2018-06-03 16:16:18,0.151s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-03 16:16:18,2018-06-03 16:16:18,0.130s,PASSED
+executeJavaScript,Chrome 66.0.3359.181,,2018-06-03 16:16:18,2018-06-03 16:16:19,0.061s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-03 16:16:19,2018-06-03 16:16:23,4.728s,PASSED
+waitForPageLoad,Chrome 66.0.3359.181,,2018-06-03 16:16:23,2018-06-03 16:16:23,0.083s,PASSED
+"Statement - assert com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle() == ""FPO - treatment-journey""",Chrome 66.0.3359.181,,2018-06-03 16:16:23,2018-06-03 16:16:24,0.175s,PASSED
+"Statement - out.println(""holaaaaa"")",Chrome 66.0.3359.181,,2018-06-03 16:16:24,2018-06-03 16:16:24,0.041s,PASSED

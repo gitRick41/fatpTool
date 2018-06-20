@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_FindTreatmentProvider_StandalonSearch" time="11" tests="0" failures="0" errors="1">
+   <testsuite name="TS_FindTreatmentProvider_StandalonSearch" tests="0" failures="0" errors="1" time="11" timestamp="2018-06-04 16:32:52" hostname="Administrator - 10.211.55.3" id="Test Suites/TS_FindTreatmentProvider_StandalonSearch">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180604_163243"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180604_163243\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - 10.211.55.3"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="10.211.55.3"/>
+         <property name="sessionId" value="ca71a0813e7b8ff1a7cc1338ff5e141b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/javascriptTest" classname="Test Cases/javascriptTest" status="ERROR">
+         <error type="ERROR" message="Test Cases/javascriptTest FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible() is applicable for argument types: (java.lang.String) values: [sssdsd]
+Possible solutions: verifyElementVisible(com.kms.katalon.core.testobject.TestObject), verifyElementVisible(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), verifyElementNotVisible(com.kms.katalon.core.testobject.TestObject), verifyElementNotVisible(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)"/>
+         <system-out><![CDATA[2018-06-04 16:32:53 - [TEST_CASE][ERROR] - Test Cases/javascriptTest: Test Cases/javascriptTest FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible() is applicable for argument types: (java.lang.String) values: [sssdsd]
+Possible solutions: verifyElementVisible(com.kms.katalon.core.testobject.TestObject), verifyElementVisible(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), verifyElementNotVisible(com.kms.katalon.core.testobject.TestObject), verifyElementNotVisible(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)
+
+2018-06-04 16:32:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.w3schools.com/'
+
+2018-06-04 16:33:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/'
+
+2018-06-04 16:33:02 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-06-04 16:33:02 - [TEST_STEP][PASSED] - Statement - js = driver: null
+
+2018-06-04 16:33:02 - [TEST_STEP][PASSED] - Statement - domain = js.executeScript("return document.domain"): null
+
+2018-06-04 16:33:02 - [TEST_STEP][PASSED] - verifyElementVisible: null]]></system-out>
+         <system-err><![CDATA[2018-06-04 16:32:53 - [TEST_CASE][ERROR] - Test Cases/javascriptTest: Test Cases/javascriptTest FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible() is applicable for argument types: (java.lang.String) values: [sssdsd]
+Possible solutions: verifyElementVisible(com.kms.katalon.core.testobject.TestObject), verifyElementVisible(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), verifyElementNotVisible(com.kms.katalon.core.testobject.TestObject), verifyElementNotVisible(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-04 16:32:52 - [TEST_SUITE][ERROR] - TS_FindTreatmentProvider_StandalonSearch: Test Cases/javascriptTest FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible() is applicable for argument types: (java.lang.String) values: [sssdsd]
+Possible solutions: verifyElementVisible(com.kms.katalon.core.testobject.TestObject), verifyElementVisible(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), verifyElementNotVisible(com.kms.katalon.core.testobject.TestObject), verifyElementNotVisible(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)]]></system-out>
+      <system-err><![CDATA[2018-06-04 16:32:52 - [TEST_SUITE][ERROR] - TS_FindTreatmentProvider_StandalonSearch: Test Cases/javascriptTest FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible() is applicable for argument types: (java.lang.String) values: [sssdsd]
+Possible solutions: verifyElementVisible(com.kms.katalon.core.testobject.TestObject), verifyElementVisible(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), verifyElementNotVisible(com.kms.katalon.core.testobject.TestObject), verifyElementNotVisible(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+   </testsuite>
+</testsuites>

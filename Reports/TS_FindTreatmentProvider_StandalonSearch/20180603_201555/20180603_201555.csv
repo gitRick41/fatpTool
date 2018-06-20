@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_FindTreatmentProvider_StandalonSearch,Firefox 54.0,,2018-06-03 20:15:58,2018-06-03 20:17:07,1m - 8.762s,FAILED
+,,,,,,
+Test Cases/sublocadePatient,Firefox 54.0,,2018-06-03 20:15:59,2018-06-03 20:17:07,1m - 7.514s,FAILED
+openBrowser,Firefox 54.0,,2018-06-03 20:16:00,2018-06-03 20:16:27,26.315s,PASSED
+navigateToUrl,Firefox 54.0,,2018-06-03 20:16:27,2018-06-03 20:16:34,6.786s,PASSED
+click,Firefox 54.0,,2018-06-03 20:16:34,2018-06-03 20:17:05,31.140s,FAILED

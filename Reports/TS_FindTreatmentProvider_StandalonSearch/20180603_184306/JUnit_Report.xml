@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_FindTreatmentProvider_StandalonSearch" time="8" tests="0" failures="1" errors="0">
+   <testsuite name="TS_FindTreatmentProvider_StandalonSearch" tests="0" failures="1" errors="0" time="8" timestamp="2018-06-03 18:43:07" hostname="Administrator - 10.211.55.3" id="Test Suites/TS_FindTreatmentProvider_StandalonSearch">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180603_184306"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\insupportFatpTool\\Reports\\TS_FindTreatmentProvider_StandalonSearch\\20180603_184306\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - 10.211.55.3"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="10.211.55.3"/>
+         <property name="sessionId" value="f4217d6c2497b137cb569ef20293f789"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/sublocadePatient" classname="Test Cases/sublocadePatient" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object 'TestObject - 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter'' and expected object '56' (Root cause: Actual object 'TestObject - 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter'' and expected object '56' are not equal)"/>
+         <system-out><![CDATA[2018-06-03 18:43:08 - [TEST_CASE][FAILED] - Test Cases/sublocadePatient: Test Cases/sublocadePatient FAILED because (of) Unable to verify equal between actual object 'TestObject - 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter'' and expected object '56' (Root cause: Actual object 'TestObject - 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter'' and expected object '56' are not equal)
+
+2018-06-03 18:43:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-03 18:43:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-03 18:43:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://indivior-sublocade-coc7-dev-main-indivior.kinetiq.network/' successfully
+
+2018-06-03 18:43:10 - [MESSAGE][PASSED] - Navigate to 'https://indivior-sublocade-coc7-dev-main-indivior.kinetiq.network/' successfully
+
+2018-06-03 18:43:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' is clicked on
+
+2018-06-03 18:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/btn_findProvider' is clicked on
+
+2018-06-03 18:43:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/input_ZipCode' is visible
+
+2018-06-03 18:43:11 - [MESSAGE][PASSED] - Object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/input_ZipCode' is visible
+
+2018-06-03 18:43:11 - [TEST_STEP][PASSED] - setText: Text '23456' is set on object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/input_ZipCode'
+
+2018-06-03 18:43:11 - [MESSAGE][PASSED] - Text '23456' is set on object 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/input_ZipCode'
+
+2018-06-03 18:43:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/a_searchProvider' is clicked on
+
+2018-06-03 18:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/test_03/Page_Home/HP_FatpSearch/TopSection/a_searchProvider' is clicked on
+
+2018-06-03 18:43:11 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector(".modal.modal-disclaimer .modal-body").scrollBy(0, 500)' successfully
+
+2018-06-03 18:43:11 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector(".modal.modal-disclaimer .modal-body").scrollBy(0, 500)' successfully
+
+2018-06-03 18:43:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test_03/Page_ModalDisclaimer/a_btnAcceptDisclaimer' is clicked on
+
+2018-06-03 18:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/test_03/Page_ModalDisclaimer/a_btnAcceptDisclaimer' is clicked on
+
+2018-06-03 18:43:15 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-03 18:43:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-03 18:43:15 - [TEST_STEP][FAILED] - verifyEqual: Unable to verify equal between actual object 'TestObject - 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter'' and expected object '56' (Root cause: Actual object 'TestObject - 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter'' and expected object '56' are not equal)
+
+2018-06-03 18:43:15 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'TestObject - 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter'' and expected object '56' (Root cause: Actual object 'TestObject - 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter'' and expected object '56' are not equal)]]></system-out>
+         <system-err><![CDATA[2018-06-03 18:43:08 - [TEST_CASE][FAILED] - Test Cases/sublocadePatient: Test Cases/sublocadePatient FAILED because (of) Unable to verify equal between actual object 'TestObject - 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter'' and expected object '56' (Root cause: Actual object 'TestObject - 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter'' and expected object '56' are not equal)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-03 18:43:07 - [TEST_SUITE][FAILED] - TS_FindTreatmentProvider_StandalonSearch: Test Cases/sublocadePatient FAILED because (of) Unable to verify equal between actual object 'TestObject - 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter'' and expected object '56' (Root cause: Actual object 'TestObject - 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter'' and expected object '56' are not equal)]]></system-out>
+      <system-err><![CDATA[2018-06-03 18:43:07 - [TEST_SUITE][FAILED] - TS_FindTreatmentProvider_StandalonSearch: Test Cases/sublocadePatient FAILED because (of) Unable to verify equal between actual object 'TestObject - 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter'' and expected object '56' (Root cause: Actual object 'TestObject - 'Object Repository/test_03/Page_FATP_SearchResults/txt_resultProvidersCounter'' and expected object '56' are not equal)]]></system-err>
+   </testsuite>
+</testsuites>

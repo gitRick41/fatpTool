@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_FATP-search-btn</name>
+   <tag></tag>
+   <elementGuidId>80470c63-e68b-46ce-884e-5c4af9c5d876</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://insupport-hub-admin.klick.com/specialty-product/patient/find-treatment?zipcode=10010</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>FATP-search-btn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;patient patient-home insupport-sublocade&quot;]/main[@class=&quot;content&quot;]/section[@class=&quot;section section-alt text-center&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;landing-cta-FATP&quot;]/div[@class=&quot;module-FATP module-FATP_Standalone&quot;]/div[@class=&quot;module-FATP_Search&quot;]/form[@class=&quot;module-FATP_Searchform&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-group-item module-FATP-search&quot;]/a[@class=&quot;FATP-search-btn&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

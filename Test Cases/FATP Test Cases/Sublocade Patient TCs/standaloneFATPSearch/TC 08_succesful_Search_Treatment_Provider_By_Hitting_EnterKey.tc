@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 08_succesful_Search_Treatment_Provider_By_Hitting_EnterKey</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>584cfeac-af8c-4b46-99b1-fdd592d6f861</testCaseGuid>
+</TestCaseEntity>
